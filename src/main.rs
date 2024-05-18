@@ -9,4 +9,8 @@ fn main() {
 
     let x = x + 1;
     println!("now x is: {}", x);
+
+    // tupple
+    let tup:(i32, bool, char) = (34, true, 'h');
+    println!("let us see tupple: {}", tup.2);
 }
